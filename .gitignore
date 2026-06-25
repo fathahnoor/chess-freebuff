@@ -1,0 +1,75 @@
+# =================
+# Unity generated
+# =================
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# =================
+# Visual Studio
+# =================
+*.csproj
+*.sln
+*.suo
+*.user
+*.userosscache
+*.userprefs
+*.usertasks
+
+# =================
+# JetBrains Rider
+# =================
+.idea/
+*.sln.iml
+
+# =================
+# MonoDevelop / VS Code
+# =================
+*.pidb
+*.userprefs
+
+# =================
+# Unity specific
+# =================
+[Ll]ibrary/
+[Ll]ibrary/ScriptAssemblies/
+[Ll]ibrary/Bee/
+[Ll]ibrary/BurstCache/
+[Ll]ibrary/StateCache/
+[Ll]ibrary/Search/
+[Ll]ibrary/ShaderCache/
+[Ll]ibrary/expandedItems
+[Ll]ibrary/ScriptMapper
+[Ll]ibrary/AnnotationManager
+[Ll]ibrary/SourceAssetDB*
+[Ll]ibrary/ArtifactDB*
+[Ll]ibrary/ilpp.pid
+[Ll]ibrary/AssetImportState*
+[Ll]ibrary/Metadata/
+[Ll]ibrary/InspectorExpandedItems.asset
+
+# =================
+# macOS
+# =================
+.DS_Store
+
+# =================
+# Windows
+# =================
+Thumbs.db
+
+# =================
+# Gradle (Android)
+# =================
+.gradle/
+local.properties
+*.apk
+*.aab
+
+# =================
+# Crashlytics
+# =================
+crashlytics.properties
