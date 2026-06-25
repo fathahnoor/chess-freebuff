@@ -18,7 +18,7 @@ The project is ideal as a foundation for game AI experiments, educational tools,
 
 > *"Don't write code. Describe what you want, and let the AI do the rest."*
 
-This entire project was built using **vibe coding** ��� a development approach where the programmer describes intent in natural language and an AI assistant generates the implementation. No line of code in this repository was typed manually in the traditional sense.
+This entire project was built using **vibe coding**  -- development approach where the programmer describes intent in natural language and an AI assistant generates the implementation. No line of code in this repository was typed manually in the traditional sense.
 
 The AI tool used throughout this project is **[Freebuff](https://freebuff.com/web/?ref=ref-8fa81977-3edd-4c7a-abee-553058007e3a)** — an AI-powered coding assistant that turns ideas into working code through conversational prompting.
 
