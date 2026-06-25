@@ -2,7 +2,7 @@
 
 > A fully-featured, rules-compliant Chess game built with **Unity** — no external assets, no dependencies. Just pure C# logic and Unity's built-in UI system.
 
-![Unity](https://img.shields.io/badge/Engine-Unity-black?logo=unity) ![Language](https://img.shields.io/badge/Language-C%23-239120?logo=csharp) ![License](https://img.shields.io/badge/License-MIT-blue)
+![Unity](https://img.shields.io/badge/Engine-Unity-black?logo=unity) ![Language](https://img.shields.io/badge/Language-C%23-239120?logo=csharp) ![License](https://img.shields.io/badge/License-MIT-blue) ![Vibe Coded](https://img.shields.io/badge/Built%20with-Vibe%20Coding-blueviolet?logo=sparkles)
 
 ---
 
@@ -11,6 +11,27 @@
 **Chess FreeBuff** is a clean, self-contained Unity chess implementation focused on correctness and readability. It features a fully rule-compliant chess engine written from scratch in C#, rendered entirely through Unity's runtime UI — no sprite assets, no third-party packages, no setup hassle.
 
 The project is ideal as a foundation for game AI experiments, educational tools, or as a reference implementation for chess logic in Unity.
+
+---
+
+## 🤖 Built with Vibe Coding
+
+> *"Don't write code. Describe what you want, and let the AI do the rest."*
+
+This entire project was built using **vibe coding** — a development approach where the programmer describes intent in natural language and an AI assistant generates the implementation. No line of code in this repository was typed manually in the traditional sense.
+
+The AI tool used throughout this project is **[Freebuff](https://freebuff.dev)** — an AI-powered coding assistant that turns ideas into working code through conversational prompting.
+
+### What vibe coding looks like in practice:
+
+| Traditional Coding | Vibe Coding with Freebuff |
+|---|---|
+| Write logic line by line | Describe the feature in plain language |
+| Debug syntax errors manually | AI generates syntactically correct code |
+| Lookup API docs constantly | AI knows the APIs |
+| Hours per feature | Minutes per feature |
+
+This repo is a **proof of concept** that a fully functional, rules-compliant chess game — including edge cases like en passant, castling, and draw by insufficient material — can be built entirely through **AI-assisted vibe coding**.
 
 ---
 
@@ -51,14 +72,14 @@ chess-freebuff/
 ├── Assets/
 │   ├── Scripts/
 │   │   └── Chess/
-│   │       ├── ChessEngine.cs     # Core chess logic & rule engine
-│   │       ├── GameManager.cs     # Unity MonoBehaviour: UI & game loop
-│   │       └── Piece.cs           # Piece data structure (type, color, symbol)
-│   ├── Scenes/                    # Unity scene(s)
-│   ├── Settings/                  # Unity render/quality settings
+│   │       ├── ChessEngine.cs   # Core chess logic & rule engine
+│   │       ├── GameManager.cs   # Unity MonoBehaviour: UI & game loop
+│   │       └── Piece.cs         # Piece data structure (type, color, symbol)
+│   ├── Scenes/                  # Unity scene(s)
+│   ├── Settings/                # Unity render/quality settings
 │   └── InputSystem_Actions.inputactions  # New Input System config
-├── Packages/                      # Unity package manifest
-└── ProjectSettings/               # Unity project settings
+├── Packages/                    # Unity package manifest
+└── ProjectSettings/             # Unity project settings
 ```
 
 ---
@@ -71,9 +92,9 @@ chess-freebuff/
 
 ### Running the Project
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/fathahnoor/chess-freebuff.git
-   ```
+```bash
+git clone https://github.com/fathahnoor/chess-freebuff.git
+```
 2. Open the project in **Unity Hub**.
 3. Open the scene in `Assets/Scenes/`.
 4. Press **Play** — the board is generated procedurally at runtime.
@@ -122,9 +143,7 @@ This architecture makes it straightforward to extend the engine with:
 
 ## 👤 Author
 
-**Fat'hah Noor Prawita**  
-Lecturer — Telkom University, Bandung, Indonesia  
-Research focus: Immersive Technologies (XR/VR/AR), AI, Educational Technology
+**@fathahnoor**
 
 ---
 
