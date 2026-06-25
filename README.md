@@ -2,7 +2,7 @@
 
 > A fully-featured, rules-compliant Chess game built with **Unity** — no external assets, no dependencies. Just pure C# logic and Unity's built-in UI system.
 
-![Unity](https://img.shields.io/badge/Engine-Unity-black?logo=unity) ![Language](https://img.shields.io/badge/Language-C%23-239120?logo=csharp) ![License](https://img.shields.io/badge/License-MIT-blue) ![Vibe Coded](https://img.shields.io/badge/Built%20with-Vibe%20Coding-blueviolet?logo=sparkles)
+![Unity](https://img.shields.io/badge/Engine-Unity%206000.3.5f1%20LTS-black?logo=unity) ![Language](https://img.shields.io/badge/Language-C%23-239120?logo=csharp) ![License](https://img.shields.io/badge/License-MIT-blue) ![Vibe Coded](https://img.shields.io/badge/Built%20with-Vibe%20Coding-blueviolet?logo=sparkles)
 
 ---
 
@@ -18,9 +18,14 @@ The project is ideal as a foundation for game AI experiments, educational tools,
 
 > *"Don't write code. Describe what you want, and let the AI do the rest."*
 
-This entire project was built using **vibe coding** — a development approach where the programmer describes intent in natural language and an AI assistant generates the implementation. No line of code in this repository was typed manually in the traditional sense.
+This entire project was built using **vibe coding** ��� a development approach where the programmer describes intent in natural language and an AI assistant generates the implementation. No line of code in this repository was typed manually in the traditional sense.
 
-The AI tool used throughout this project is **[Freebuff](https://freebuff.dev)** — an AI-powered coding assistant that turns ideas into working code through conversational prompting.
+The AI tool used throughout this project is **[Freebuff](https://freebuff.com/web/?ref=ref-8fa81977-3edd-4c7a-abee-553058007e3a)** — an AI-powered coding assistant that turns ideas into working code through conversational prompting.
+
+### 🛠️ How this project was created
+
+1. **Create project in Unity Hub** — started as a **Universal 2D (Empty)** project using **Unity 6000.3.5f1 LTS**
+2. **Freebuff CLI** — all game logic, UI, and chess rules were generated iteratively via the Freebuff CLI by describing features in plain language
 
 ### What vibe coding looks like in practice:
 
@@ -87,7 +92,7 @@ chess-freebuff/
 ## 🚀 Getting Started
 
 ### Prerequisites
-- **Unity 2022.x or later** (LTS recommended)
+- **Unity 6000.3.5f1 LTS** (Universal 2D template)
 - Unity **Input System** package (included via `Packages/`)
 
 ### Running the Project
